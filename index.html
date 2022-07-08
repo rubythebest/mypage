@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Ruby Woo Profile_link">
+    <meta property="og:description" content="Resume">
+    <meta property="og:image" content="image.png">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>르탄이 - 프로필 링크</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+         body {
+            background-color: #44398A;
+        }
+         .profile {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 100%;
+
+            border : 2px solid white;
+
+            background-image: url(images.png);
+            background-size: cover;
+        }
+         .main {
+            color: white;
+            font-size: 20px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+         .sub {
+            color: white;
+            font-size: 10px;
+            text-align: center;
+
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+         .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column; /*column 이냐 low냐만 바꿔사용하고 밑 4줄은 항상같이 -내용물을 가운데로 오게 하는 코드 */
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            width: 300px;
+            height:50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+            font-size: 14px;
+            font-weight: bold;
+            color: #44398A;
+            
+            display: flex;
+            flex-direction: column; /*column 이냐 low냐만 바꿔사용하고 밑 4줄은 항상같이 */
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none; /*하이퍼링크 밑줄 없애주는 코드*/
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        .wrap > a:hover {
+            background-color: #f2f2f2;
+            font-size: 15px;
+        }   
+        
+    </style>
+</head>
+
+
+<body>
+    <div class="wrap">
+        <div class = "profile"></div>
+        <h1 class="main">우루비</h1>
+        <p class="sub">UC Berkeley <br/></br> Molecular and cellular biology</p>
+        <a target="_blank" href="https://www.instagram.com/rubyatcal/">인스타그램</a>
+        <a target="_blank" href="https://hanghae99.spartacodingclub.kr/">페이스북</a>
+    </div>
+
+</body>
+</html>
